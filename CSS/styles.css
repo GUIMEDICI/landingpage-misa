@@ -81,6 +81,6 @@ header {
     font-size: 3rem;
 }
 
-.docs {
+.docs a {
     color: rgba(123, 126, 140, 1);
 }
