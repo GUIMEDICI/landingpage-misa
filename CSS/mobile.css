@@ -4,9 +4,47 @@ header {
     justify-content: start;
 }
 .header-logo {
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
     height: 4.875rem;
     width: 20rem;
+}
+.first-section {
+    padding-left: 1rem;
+}
+.first-title {
+    width: 347px;
+}
+.first-paragraph {
+    width: 358px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.btn-popup {
+    background-color: #FF0CF6;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.188rem;
+    height: 2.75rem;
+    border-radius: 1.875rem;
+    padding: 18px;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px 0px rgba(124, 237, 255, 0.5);
+    margin-bottom: 70px;
+}
+.board-guy {
+    margin-bottom: 70px;
+}
+.second-title {
+    margin-bottom: 70px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
 }
 

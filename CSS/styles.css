@@ -19,11 +19,25 @@ header {
     color: rgba(255, 255, 255, 1);
     font-size: 3rem;
 }
+@media screen and (max-width: 859px) {
+    .sml-rect {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .big-rect {
+        display: none;
+    }
+    
+}
 .first-paragraph {
     color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
 .btn-popup {
     background-color: #FF0CF6;
@@ -81,6 +95,6 @@ header {
     font-size: 3rem;
 }
 
-.docs a {
-    color: rgba(123, 126, 140, 1);
+.docs a:visited {
+    color: #7B7E8C;
 }
