@@ -1,0 +1,204 @@
+/*FIRST SECTION*/
+header {
+    width: 100%;
+    padding-top: 2.625rem;
+    padding-left: 1.875rem;
+}
+.first-section {
+    height: 38.938rem;
+    width: 100%;
+}
+.header-logo { 
+    height: 4.875rem;
+    width: 25rem;
+}
+.first-title {
+    margin-top: 3rem;
+    width: 48.25rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12.125rem
+}
+.first-paragraph {
+    margin: 4rem 0;
+    width: 42rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.btn-popup {
+    margin-top: 3.75rem;
+}
+.board-guy {
+    margin-top: 3.75rem;
+    height: 31.25rem;
+}
+
+/*SECOND SECTION*/
+
+.second-section {
+    height: 38.938rem;
+}
+.second-title {
+    padding-top: 5rem;
+    margin-left: 12.125rem;
+    width: 43.75rem;
+    line-height: 3.5rem;
+}
+.grid-container {
+    display: flex;
+    gap: 1.875rem;
+    margin-left: 12.125rem;
+    padding-top: 4rem;
+}
+
+/*THIRD SECTION*/
+.third-section {
+    height: 50.938rem;
+    color: rgba(255, 255, 255, 1);
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.grid2 {
+    display: grid;
+    gap: 5.25rem;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12.125rem;
+}
+.profile-photo {
+    margin-top: 3.75rem;
+    margin-left: 6.25rem;
+    height: 30rem;
+}
+.about-text {
+    line-height: 1.375rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    width: 34.063rem;
+    margin-right: 15.625rem;
+}
+.third-section-logo {
+    margin-top: 3.125rem;
+}
+.third-section-btn {
+    width: 34.063rem;
+}
+
+.certificates{
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+/*QUARTA SEÇÃO*/
+.fourth-section {
+    height: 53.938rem;
+    display: flex;
+    gap: 0.625rem;
+}
+
+.sml-blue {
+    height: 7.563rem;
+}
+
+.title4-container {
+    display: flex;
+    gap: 0.625rem;
+    margin-left: 11.875rem;
+    margin-top: 5rem;
+}
+
+.fourth-title {
+    margin-top: 0.625rem;
+    font-size: 3rem;
+    width: 50rem;
+    line-height: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.statements {
+    position: absolute;
+    margin-top: 18.75rem;
+    margin-left: 12.5rem;
+}
+
+/*QUINTA SEÇÃO*/
+.fifth-section {
+    height: 53.938rem;
+}
+
+.gradient-box {
+    display: flex;
+    justify-content: space-evenly;
+    height: 15rem;
+    width: 100%;
+    background-image: linear-gradient(90deg, #C512B9 0%, #FF0CF6 15.38%, #FF8AFA 39.18%, #7CEDFF 57.28%, #00DEFF 84.08%, #00A6C3 100%);
+    color:rgba(255, 255, 255, 1);
+}
+
+.gradient-box-text {
+    width: 43.75rem;
+    align-self: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.fifth-section-btn {
+    margin-top: 6.25rem;
+}
+
+.collapse {
+    margin-top: 30px;
+    color:rgba(255, 255, 255, 1);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    background-color: #ffffff;
+    color: rgb(23, 30, 53);
+    line-height: 25px;
+    text-align: center;
+}
+.collapse-title {
+    display: inline;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: rgb(23, 30, 53);
+    cursor: pointer;
+    line-height: 50px;
+}
+
+span {
+    font-size: 25px;
+}
+
+footer  {
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.footer-logo {
+    margin-left: 160px;
+}
+
+.docs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links {
+    padding-left: 20px;
+    padding-right: 20px;
+}

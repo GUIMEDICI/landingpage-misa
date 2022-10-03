@@ -1,0 +1,82 @@
+/*Arquivo responsável pelas principais estruturas - estruturas padrão*/
+header {
+    background-color: rgb(23, 30, 53);
+    width: 100%;
+    height: 10rem;
+}
+.header-logo {
+    margin-left: 10rem;
+}
+/*Primeira seção de conteúdo*/
+.first-section {
+    width: 100%;
+    background-color: rgb(23, 30, 53);
+}
+.first-title {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+}
+.first-paragraph {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+.btn-popup {
+    background-color: #FF0CF6;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28.063rem;
+    height: 2.75rem;
+    border-radius: 1.875rem;
+    padding: 18px;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px 0px rgba(124, 237, 255, 0.5);
+}
+
+/*Segunda seção de conteúdo*/
+.second-section {
+    width: 100%;
+    background-color: rgba(34, 40, 62, 1);
+}
+
+.second-title {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+}
+
+.third-section {
+    width: 100%;
+    background-color: rgb(23, 30, 53);
+}
+
+/*FOURTH SECTION*/
+.fourth-section {
+    width: 100%;
+    background-color: rgba(34, 40, 62, 1);
+    color:rgba(255, 255, 255, 1);
+}
+
+/*FIFTH SECTION*/
+.fifth-section {
+    width: 100%;
+    background-color: rgb(23, 30, 53);
+}
+
+.fifth-title {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+}
